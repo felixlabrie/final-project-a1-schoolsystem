@@ -9,7 +9,8 @@ import org.springframework.data.annotation.Id;
 public class Teacher {
 
     @Id
-    private String teacherId;
+    private String id;          //private id -from database
+    private String teacherId;   //public id -we create
     private String firstName;
     private String lastName;
     private String email;

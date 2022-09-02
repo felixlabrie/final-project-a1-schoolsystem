@@ -13,6 +13,6 @@ public class Section {
     private String sectionId;   //public id -we create
     private Integer courseNumber;
     private Integer roomNumber;
-    private String teacherId;
+    private Integer teacherId;
 
 }

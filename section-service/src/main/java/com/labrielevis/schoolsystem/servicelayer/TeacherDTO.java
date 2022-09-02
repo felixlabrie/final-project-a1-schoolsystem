@@ -8,7 +8,7 @@ import lombok.ToString;
 @ToString
 @NoArgsConstructor
 public class TeacherDTO {
-    private String teacherId; //public id - we create
+    private Integer teacherId; //public id - we create
     private String firstName;
     private String lastName;
     private String email;

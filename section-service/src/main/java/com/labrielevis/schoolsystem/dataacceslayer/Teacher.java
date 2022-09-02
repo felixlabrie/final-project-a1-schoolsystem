@@ -6,13 +6,12 @@ import org.springframework.data.annotation.Id;
 
 @Data
 @ToString
-public class Section {
+public class Teacher {
 
     @Id
     private String id;          //private id -from database
-    private String sectionId;   //public id -we create
-    private Integer courseNumber;
-    private Integer roomNumber;
-    private String teacherId;
-
+    private Integer teacherId;   //public id -we create
+    private String firstName;
+    private String lastName;
+    private String email;
 }
